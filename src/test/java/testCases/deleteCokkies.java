@@ -17,6 +17,7 @@ public class deleteCokkies {
 		driver.manage().deleteAllCookies();
 		driver.manage().deleteCookieNamed("abced");
 		driver.manage().window().maximize();
+		System.out.println("swamy 1");
 		driver.get("https://www.w3schools.com/sql/trysql.asp?filename=trysql_asc");
 	}
 
